@@ -7,14 +7,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+h1,
+ul,
+p {
   margin: 0px;
+}
+
+ul {
   padding: 0px;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .header-bg {
@@ -85,4 +91,33 @@ a {
     padding: 0.5rem 0.75rem;
     font-size: 0.875rem;
   }
+}
+
+.introduction-bg {
+  background: #000;
+  color: #ffffff;
+}
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 2.5rem;
+}
+
+.introduction-content {
+  align-self: end;
+  padding-bottom: 5rem;
+}
+
+.introduction h1 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  line-height: 1.125;
+}
+
+.introduction p {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #b2b2b2;
 }
