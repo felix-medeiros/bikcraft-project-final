@@ -104,6 +104,7 @@ img {
 .introduction-bg {
   background: #000;
   color: #ffffff;
+  box-shadow: inset 0 -120 #fff;
 }
 
 .introduction {
@@ -120,7 +121,13 @@ img {
 
 .introduction-content {
   align-self: end;
-  padding-bottom: 5rem;
+  padding-bottom: 200px;
+}
+
+.introduction img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .introduction h1 {
